@@ -41,5 +41,6 @@ cacheSolve(Cached_Matrix)
 ## This is test 2 of the functions above
 
 y <- diag(8,8)
+y
 Cached_Matrix <- makeCacheMatrix(y)
 cacheSolve(Cached_Matrix)
